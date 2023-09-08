@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class registration</title>
+</head>
+<style>
+     .required::after {
+        content: ' *';
+        color: red;
+      }
+</style>
+<body>
+      <form>
+                <!-- header section -->
+                <header>
+                    <center><h2>class registration</h2><hr></center>   
+                <label class="required">fill in all the required fields </label> 
+                </header>
+
+                    <!-- main section --> 
+
+                <tbody>
+
+                        <tr>
+                        <br><td><label  class="required">Gender</label></td>
+                        <td>
+                            <select>
+                                <option value="MH">Male</option>
+                                <option value="up">Female</option>
+                                <option value="pu">other</option>
+                                
+                            </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                           <br><br> <td> <label class="required">Name</label></td><br>
+                            <td><input type="text" maxlength="12"  placeholder="title" required></td>
+                            <td><input type="text" maxlength="12"  placeholder="First"></td>
+                            <td><input type="text" maxlength="12"  placeholder="Last"></td>
+                        </tr>
+
+
+                        <tr>
+                                <br><br><td> <label class="required">Student Email</label></td><br>
+                            <td><input type="email"placeholder="abc@gmail.com"required></td>
+                        </tr>  
+
+
+                        <tr>
+                            &nbsp;&nbsp; <td> <label class="required">Student ID</label></td>
+                            <td><input type="text" maxlength="12"required></td>
+                        </tr>
+       
+                        <tr>
+                        <br><br><td> <label class="required">Classes</label></td>
+                        <select style="width:300px; "> 
+                            <option value="cm">codeMind</option>
+                            <option value="cit">CIIT</option>
+                            <option value="lh">Lotus ItHub</option>
+                            <option value="spk">Spark</option>
+                        </select>
+                            </tr>
+
+                        <tr>
+                        <br><br><td> <label class="required">Courses</label></td>
+                            <select style="width:300px; "> 
+                                <option value="cm">Angular</option>
+                                <option value="cit">java</option>
+                                <option value="lh">.Net</option>
+                                <option value="spk">React</option>
+                            </select>
+                        </tr>
+
+                            <!-- footer section -->
+                        <footer>
+                            <tr>
+                                <br>  <td>  <button type="submit">Apply for class</button></td>
+                            </tr>
+                        </footer>
+                    </tbody>
+            </form>
+    </body>
+</html>
