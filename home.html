@@ -17,6 +17,7 @@
                     font-family: 'Sofia', cursive;
                     padding-top: 10px;
                     padding-bottom: 10px;
+                   
                  
             }
 
@@ -71,19 +72,32 @@
                 /* border-bottom */
         }
 
-        .list
-        {
-            padding: 15px;
-        }
         #index
         {
             text-decoration:dashed;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             font-style: italic;
-
-
-
         }
+        #emoji
+        {
+            list-style-type: none;
+        }
+        #emoji::before
+        {
+            content: " 👉";
+        }
+
+        
+        #id2
+        {
+            list-style-type: none;
+        }
+        #id2::before
+        {
+            content: " 👉";
+        }
+    
+      
 
     </style>
 </head>
@@ -95,16 +109,16 @@
         <strong> <h2 class="para1">Professional Summary</h2></strong>
         <ul>
         
-         <li class="list">Having 1 years of experience in developing  single page web application using <span id="id1">Angular8 </span> ,Html5,css3,bootstrap5,javascript,typescript</li>
-         <li class="list">Experience on working with version control system-GIT and git hub</li>
-         <li class="list">Experience with JIRA for user stories and bugs tracking</li>
-         <li class="class2">Strong Debugging & troubleshooting code experience using chrome developer tool</li>
-         <li class="list">Working exposure on ID's like vs code and notepad++</li>
-         <li class="class2">Good working experiences under agile methodologies enviorment</li>
-         <li class="list">Experience in using chrome developer tool for Debugging and troubleshooting the code</li>
+         <li class="list"id="emoji">Having 1 years of experience in developing  single page web application using <span id="id1">Angular8 </span> ,Html5,css3,bootstrap5,javascript,typescript</li>
+         <li class="list"id="emoji">Experience on working with version control system-GIT and git hub</li>
+         <li class="list"id="emoji">Experience with JIRA for user stories and bugs tracking</li>
+         <li class="class2"id="emoji">Strong Debugging & troubleshooting code experience using chrome developer tool</li>
+         <li class="list"id="emoji">Working exposure on ID's like vs code and notepad++</li>
+         <li class="class2"id="emoji">Good working experiences under agile methodologies enviorment</li>
+         <li id="emoji">Experience in using chrome developer tool for Debugging and troubleshooting the code</li>
          <li id="id2">Knowledge of nodesJS</li>
-         <li class="list">Ability to work with people at all levels in the program</li>
-         <li class="upper"> Knowledge of Mongodb and expressJS </li>
+         <li class="list"id="emoji">Ability to work with people at all levels in the program</li>
+         <li class="upper"id="emoji"> Knowledge of Mongodb and expressJS </li>
 
         <br> <p class="git">GitHub, Inc. is a platform and cloud-based service for software development and version control using Git, allowing developers to store and manage their code</p>
      </ul>
